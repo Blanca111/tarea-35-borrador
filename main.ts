@@ -1,9 +1,9 @@
 let comienzo = false
 input.onPinPressed(TouchPin.P0, function () {
     comienzo = false
-    basic.showIcon(IconNames.Heart)
-    basic.pause(randint(2000, 7000))
     basic.clearScreen()
+    basic.pause(randint(2000, 7000))
+    basic.showIcon(IconNames.Heart)
     comienzo = true
 })
 input.onPinPressed(TouchPin.P2, function () {
